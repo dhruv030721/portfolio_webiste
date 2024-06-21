@@ -6,15 +6,15 @@ import { motion } from "framer-motion";
 
 export function HeroSection() {
     return (
-        <div className="w-screen flex justify-between relative items-center h-screen overflow-hidden bg-black">
-            <div className="w-[70%]">
+        <div className="flex h-[80%] justify-center relative items-center overflow-hidden ">
+            <div className="w-[60%]">
                 <FlipWord />
             </div>
-            <div className="relative mr-32 rounded-full">
+            <div className="relative rounded-full">
                 <Image
                     src="/Profile.png"
                     alt="Profile Image"
-                    className="brightness-75 p-3 rounded-full"
+                    className="brightness-75 p-3 rounded-full drop-shadow-black-3xl"
                     quality={100}
                     width={330}
                     height={330}
