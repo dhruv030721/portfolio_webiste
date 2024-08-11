@@ -1,11 +1,11 @@
-import { HeroHighlightDemo } from "./components/HeroHighlight";
-import { HeroSection } from "./components/HeroSection";
-import NavBar from "./components/NavBar";
+import { MainSection } from "./components/HeroHighlight";
+import Layout from "./components/Layout";
 
-export default function Home() {
+export default function Home({ Component, pageProps }: any) {
   return (
-    <main className="h-screen">
-      <HeroHighlightDemo />
-    </main>
+    <Layout>
+      <MainSection />
+    </Layout>
   );
 }
+

@@ -2,19 +2,19 @@
 import React from "react";
 import { FlipWord } from "./FlipWord";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { motion } from "framer-motion";  // Corrected the import
 
 export function HeroSection() {
     return (
-        <div className="flex h-[80%] justify-center relative items-center overflow-hidden ">
+        <div className="flex h-screen justify-between items-center relative overflow-hidden">
             <div className="w-[60%]">
                 <FlipWord />
             </div>
-            <div className="relative rounded-full">
+            <div className="relative flex justify-center items-center">
                 <Image
                     src="/Profile.png"
                     alt="Profile Image"
-                    className="brightness-75 p-3 rounded-full drop-shadow-black-3xl"
+                    className="brightness-85 p-3 rounded-full drop-shadow-black-3xl z-10"
                     quality={100}
                     width={330}
                     height={330}
@@ -30,7 +30,7 @@ export function HeroSection() {
                         cy="253"
                         r="250"
                         stroke="#ffffff"
-                        strokeWidth="5"
+                        strokeWidth="10"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         initial={{ strokeDasharray: "24 10 0 0" }}
