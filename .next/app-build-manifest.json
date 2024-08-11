@@ -1,3 +1,57 @@
 {
-  "pages": {}
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-fbe99b899d782aab.js",
+      "static/chunks/fd9d1056-b77796a653f0ee34.js",
+      "static/chunks/23-19edfbc26295079a.js",
+      "static/chunks/main-app-0d6db8737e43554e.js",
+      "static/chunks/app/_not-found/page-b2ca3e203278e4a9.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-fbe99b899d782aab.js",
+      "static/chunks/fd9d1056-b77796a653f0ee34.js",
+      "static/chunks/23-19edfbc26295079a.js",
+      "static/chunks/main-app-0d6db8737e43554e.js",
+      "static/css/c934c01a5aaf31b5.css",
+      "static/chunks/app/layout-35335c0fe99d5872.js"
+    ],
+    "/education/page": [
+      "static/chunks/webpack-fbe99b899d782aab.js",
+      "static/chunks/fd9d1056-b77796a653f0ee34.js",
+      "static/chunks/23-19edfbc26295079a.js",
+      "static/chunks/main-app-0d6db8737e43554e.js",
+      "static/css/a7077fffeb26c905.css",
+      "static/chunks/633-9075e48783424486.js",
+      "static/chunks/65-1235a20d56c62a40.js",
+      "static/chunks/app/education/page-9069760c06ea38a2.js"
+    ],
+    "/experience/page": [
+      "static/chunks/webpack-fbe99b899d782aab.js",
+      "static/chunks/fd9d1056-b77796a653f0ee34.js",
+      "static/chunks/23-19edfbc26295079a.js",
+      "static/chunks/main-app-0d6db8737e43554e.js",
+      "static/css/a7077fffeb26c905.css",
+      "static/chunks/633-9075e48783424486.js",
+      "static/chunks/65-1235a20d56c62a40.js",
+      "static/chunks/app/experience/page-b93f2ec488ce432b.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-fbe99b899d782aab.js",
+      "static/chunks/fd9d1056-b77796a653f0ee34.js",
+      "static/chunks/23-19edfbc26295079a.js",
+      "static/chunks/main-app-0d6db8737e43554e.js",
+      "static/css/a7077fffeb26c905.css",
+      "static/chunks/dc112a36-9245e58b51327391.js",
+      "static/chunks/633-9075e48783424486.js",
+      "static/chunks/952-dd0ed2e9aeff0398.js",
+      "static/chunks/app/page-82144ada24220ebc.js"
+    ],
+    "/tech_stack/page": [
+      "static/chunks/webpack-fbe99b899d782aab.js",
+      "static/chunks/fd9d1056-b77796a653f0ee34.js",
+      "static/chunks/23-19edfbc26295079a.js",
+      "static/chunks/main-app-0d6db8737e43554e.js",
+      "static/chunks/app/tech_stack/page-7db596e43ebb16e6.js"
+    ]
+  }
 }
