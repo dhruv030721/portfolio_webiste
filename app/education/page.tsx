@@ -68,8 +68,10 @@ const education = () => {
     ];
 
     return (
-        <Layout> 
-            <TracingBeamDemo data={content}/>
+        <Layout>
+            <div className='p-20'>
+                <TracingBeamDemo data={content} />
+            </div>
         </Layout>
     );
 }

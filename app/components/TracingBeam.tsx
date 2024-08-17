@@ -11,7 +11,7 @@ export function TracingBeamDemo({ data }: any) {
             <div className="max-w-2xl mx-auto antialiased pt-4 relative">
                 {data.map((item: any, index: any) => (
                     <div key={`content-${index}`} className="mb-10">
-                        <h2 className="bg-white text-black rounded-full text-sm w-fit px-4 py-1 mb-4">
+                        <h2 className="bg-transparent text-white border rounded-lg text-sm w-fit px-4 py-1 mb-4">
                             {item.badge}
                         </h2>
 
