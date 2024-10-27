@@ -8,10 +8,10 @@ export function HeroSection() {
     return (
         <div className="
             flex flex-col-reverse lg:flex-row 
-            h-screen items-center 
+            mt-28 items-center 
             justify-center lg:justify-between 
              sm:px-8 lg:px-16 overflow-hidden
-            space-y-8 gap-y-10 lg:space-y-0 
+              lg:space-y-0 
         ">
             {/* FlipWord Section */}
             <div className="

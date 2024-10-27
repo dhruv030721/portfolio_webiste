@@ -22,7 +22,7 @@ export function MainSection() {
     };
 
     return (
-        <main className="container mx-auto px-4 md:px-6 lg:px-8 py-8 space-y-16">
+        <main className="container mx-auto px-4 md:px-6 lg:px-20 pb-20 space-y-16">
             {/* Hero Section */}
             <section className="w-full">
                 <HeroSection />
@@ -37,27 +37,27 @@ export function MainSection() {
                     </h1>
                 </div>
 
-                <div className="flex flex-col lg:flex-row gap-6 items-center">
+                <div className="flex flex-col lg:flex-row gap-6 items-center mx-20">
                     {/* Calendar Container */}
-                    <div className="w-full lg:w-4/5 border border-zinc-700 rounded-2xl p-4 md:p-6 lg:p-8 overflow-x-auto">
-                        <div className="min-w-[750px] md:min-w-0">
+                    <div className="w-full lg:w-[70%] xl:w-4/5 border border-zinc-700 rounded-2xl p-4 md:p-6 overflow-x-auto">
+                        <div className="min-w-[750px] md:min-w-0 scale-90 lg:scale-85 xl:scale-100 origin-left">
                             <GithubCalendar
                                 username="dhruv030721"
                                 year={year}
                                 colorScheme="dark"
                                 labels={labels}
+                                fontSize={12}
                             />
                         </div>
                     </div>
 
                     {/* Year Selection */}
-                    <div className="flex flex-row lg:flex-col gap-4 lg:w-1/5">
+                    <div className="flex flex-row lg:flex-col gap-4 lg:w-[30%] xl:w-1/5">
                         {years.map((value) => (
                             <button
                                 key={value}
-                                className={`px-4 py-2 md:px-6 md:py-3 border rounded-xl text-sm md:text-base transition-colors duration-200 hover:bg-zinc-800 ${
-                                    year === value ? "border-green-600 bg-zinc-800/50" : "border-zinc-700"
-                                }`}
+                                className={`px-4 py-2 md:px-6 md:py-3 border rounded-xl text-sm md:text-base transition-colors duration-200 hover:bg-zinc-800 ${year === value ? "border-green-600 bg-zinc-800/50" : "border-zinc-700"
+                                    }`}
                                 onClick={() => setYear(value)}
                             >
                                 {value}

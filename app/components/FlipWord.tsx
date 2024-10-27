@@ -17,7 +17,7 @@ export function FlipWord() {
                 <h1 className={`
                     text-neutral-400 
                     text-center sm:text-left 
-                    text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[3.5rem]
+                    text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-[2.5rem]
                     leading-relaxed
                 `}>
                     Hello  🙏, {"It's"} me
