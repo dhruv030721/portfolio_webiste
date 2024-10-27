@@ -2,7 +2,7 @@
 import live from "../../public/live.json";
 import { HeroSection } from "./HeroSection";
 import GithubCalendar from "react-github-calendar";
-import { GeistSans } from 'geist/font/sans';
+import { GeistSans } from "geist/font/sans";
 import github from "../../public/github.json";
 import { useState } from "react";
 import { ThreeDCardDemo } from "./3DCard";
@@ -10,90 +10,90 @@ import levelupyourfitness from "../../public/levelupyourfitness.png";
 import slicemaster from "../../public/slicemaster.png";
 import LottieAnimation from "./LottieAnimation";
 
-
 export function MainSection() {
-
     const [year, setYear] = useState(2024);
-
     const years = [2024, 2023];
 
     const labels = {
-        months: [
-            'Jan',
-            'Feb',
-            'Mar',
-            'Apr',
-            'May',
-            'Jun',
-            'Jul',
-            'Aug',
-            'Sep',
-            'Oct',
-            'Nov',
-            'Dec',
-        ],
-        weekdays: [
-            'Sun', // Sunday first!
-            'Mon',
-            'Tue',
-            'Wed',
-            'Thu',
-            'Fri',
-            'Sat',
-        ],
-        totalCount: '{{count}} activities in {{year}}',
-        legend: {
-            less: 'Less',
-            more: 'More',
-        },
+        months: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        weekdays: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+        totalCount: "{{count}} activities in {{year}}",
+        legend: { less: "Less", more: "More" },
     };
 
     return (
-        <div className="">
+        <main className="container mx-auto px-4 md:px-6 lg:px-8 py-8 space-y-16">
+            {/* Hero Section */}
+            <section className="w-full">
+                <HeroSection />
+            </section>
 
-            {/* Herosection Portion */}
+            {/* GitHub Contribution Section */}
+            <section className="w-full space-y-8">
+                <div className="flex items-center gap-x-4">
+                    <LottieAnimation json={github} classes="w-8 md:w-12" />
+                    <h1 className={`text-xl md:text-2xl font-sans ${GeistSans.className}`}>
+                        Contribution Graph
+                    </h1>
+                </div>
 
-            <HeroSection />
-
-            {/* Github Contribution Portion  */}
-
-            <div className="flex flex-col justify-center">
-                <div className="mx-auto flex flex-col gap-y-14">
-                    <div className="flex items-center gap-x-5">
-                        <LottieAnimation json={github} classes="w-12" />
-                        <h1 className={`text-start text-2xl font-sans ${GeistSans.className}`}>Contribution Graph</h1>
-                    </div>
-                    <div className="flex">
-                        <div className="border border-zinc-700 rounded-2xl p-10">
-                            <GithubCalendar username="dhruv030721" year={year} colorScheme="dark" labels={labels} />
-                        </div>
-                        <div className="flex-col flex gap-y-5 ml-5">
-                            {years.map(value => (
-                                <button
-                                    key={value}
-                                    className={`  ${year == value ? 'border-green-700' : 'border-zinc-700'}  px-8 py-3 border rounded-2xl`}
-                                    onClick={() => setYear(value)}
-                                >
-                                    {value}
-                                </button>
-                            ))}
+                <div className="flex flex-col lg:flex-row gap-6 items-center">
+                    {/* Calendar Container */}
+                    <div className="w-full lg:w-4/5 border border-zinc-700 rounded-2xl p-4 md:p-6 lg:p-8 overflow-x-auto">
+                        <div className="min-w-[750px] md:min-w-0">
+                            <GithubCalendar
+                                username="dhruv030721"
+                                year={year}
+                                colorScheme="dark"
+                                labels={labels}
+                            />
                         </div>
                     </div>
-                </div>
-            </div>
 
+                    {/* Year Selection */}
+                    <div className="flex flex-row lg:flex-col gap-4 lg:w-1/5">
+                        {years.map((value) => (
+                            <button
+                                key={value}
+                                className={`px-4 py-2 md:px-6 md:py-3 border rounded-xl text-sm md:text-base transition-colors duration-200 hover:bg-zinc-800 ${
+                                    year === value ? "border-green-600 bg-zinc-800/50" : "border-zinc-700"
+                                }`}
+                                onClick={() => setYear(value)}
+                            >
+                                {value}
+                            </button>
+                        ))}
+                    </div>
+                </div>
+            </section>
 
-            {/* Live Projects Portion */}
-            <div className="flex flex-col mt-10 pt-10">
-                <div className="flex items-center gap-x-5">
-                    <LottieAnimation json={live} classes="w-20" />
-                    <h1 className={`text-start text-2xl font-sans ${GeistSans.className}`}>Live Projects</h1>
+            {/* Live Projects Section */}
+            <section className="w-full space-y-8">
+                <div className="flex items-center gap-x-4">
+                    <LottieAnimation json={live} classes="w-10 md:w-16" />
+                    <h1 className={`text-xl md:text-3xl font-sans ${GeistSans.className}`}>
+                        Live Projects
+                    </h1>
                 </div>
-                <div className="flex justify-between mt-5">
-                    <ThreeDCardDemo title="Level up your fitnes 💪" description="It is a fitness app which helps you to track your daily fitness goal and guide you." image={levelupyourfitness} link="https://levelup-your-fitness.vercel.app" />
-                    <ThreeDCardDemo title="Slice Master 🍕" description="It is a fitness app which helps you to track your daily fitness goal and guide you." image={slicemaster} link="https://slice-master-henna.vercel.app" />
+
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full">
+                    <ThreeDCardDemo
+                        title="Level up your fitness 💪"
+                        description="A fitness app to track daily goals and guide you."
+                        image={levelupyourfitness}
+                        link="https://levelup-your-fitness.vercel.app"
+                        classes="w-full h-full"
+                    />
+
+                    <ThreeDCardDemo
+                        title="Slice Master 🍕"
+                        description="A fun project to explore pizza tracking."
+                        image={slicemaster}
+                        link="https://slice-master-henna.vercel.app"
+                        classes="w-full h-full"
+                    />
                 </div>
-            </div>
-        </div>
+            </section>
+        </main>
     );
 }

@@ -29,7 +29,7 @@ import prisma from "@/public/prisma.png"
 const page = () => {
     return (
         <Layout>
-            <div className='grid grid-cols-2 gap-32 p-20'>
+            <div className='grid lg:grid-cols-2 xl:grid-cols-2 gap-32 p-10 xl:p-20 lg:p-20 grid-cols-1'>
                 <ProjectCard title="Scholar Scraper 🎓" description="I developed a web scraper that extracts student result data from the university site using Selenium automation. I also
 integrated a Gemini model using LangChain and created a FastAPI for text recognition" images={[python, fastapi, gemini, selenium]} />
                 <ProjectCard title="ERP for College Mangement 🏫" description="Developing an ERP system using the PERN stack with TypeScript. The system allows faculty to view their lecture
@@ -52,4 +52,4 @@ and Node.js for the backend" images={[python, opencv, nodejs, mongodb]} />
     )
 }
 
-export default page
+export default page;

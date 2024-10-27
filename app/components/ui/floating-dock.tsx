@@ -162,7 +162,7 @@ function IconContainer({
     const [hovered, setHovered] = useState(false);
 
     return (
-        <Link href={href} className="hover:animate-bounce">
+        <Link href={href} className="">
             <motion.div
                 ref={ref}
                 style={{ width, height }}

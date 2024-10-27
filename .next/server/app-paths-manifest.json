@@ -1,6 +1,7 @@
 {
-  "/education/page": "app/education/page.js",
-  "/experience/page": "app/experience/page.js",
+  "/page": "app/page.js",
   "/projects/page": "app/projects/page.js",
-  "/page": "app/page.js"
+  "/experience/page": "app/experience/page.js",
+  "/education/page": "app/education/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

@@ -94,7 +94,7 @@ const experience = () => {
 
     return (
         <Layout>
-            <div className='p-20'>
+            <div className='p-10'>
                 <TracingBeamDemo data={content} />
             </div>
         </Layout>
