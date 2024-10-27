@@ -39,7 +39,7 @@ export function MainSection() {
 
                 <div className="flex flex-col lg:flex-row gap-6 items-center mx-20">
                     {/* Calendar Container */}
-                    <div className="w-full lg:w-[70%] xl:w-4/5 border border-zinc-700 rounded-2xl p-4 md:p-6 overflow-x-auto">
+                    <div className="w-80 lg:w-[70%] xl:w-4/5 border border-zinc-700 rounded-2xl p-4 md:p-6 overflow-x-auto">
                         <div className="min-w-[750px] md:min-w-0 scale-90 lg:scale-85 xl:scale-100 origin-left">
                             <GithubCalendar
                                 username="dhruv030721"

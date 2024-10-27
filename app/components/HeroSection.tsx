@@ -10,8 +10,8 @@ export function HeroSection() {
             flex flex-col-reverse lg:flex-row 
             mt-28 items-center 
             justify-center lg:justify-between 
-             sm:px-8 lg:px-16 overflow-hidden
-              lg:space-y-0 
+            sm:px-8 lg:px-16 overflow-hidden
+            lg:space-y-0 
         ">
             {/* FlipWord Section */}
             <div className="
@@ -30,6 +30,16 @@ export function HeroSection() {
                 lg:h-[350px] lg:w-[350px] 
                 mt-6 lg:mt-0
             ">
+                {/* White glow effect */}
+                <div className="
+                    absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
+                    w-[90%] h-[90%] 
+                    rounded-full
+                    bg-white/15
+                    blur-2xl
+                    z-0
+                "/>
+                
                 <Image
                     src="/Profile Photo.png"
                     alt="Profile Image"
