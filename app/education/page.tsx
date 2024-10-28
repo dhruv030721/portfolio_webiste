@@ -9,28 +9,14 @@ const education = () => {
             title: "Gujarat Technological University",
             description: (
                 <>
+                    <span className='font-bold text-lg'>
+                        Sardar Patel College of Engineering, affiliated with Gujarat Technological University (GTU)
+                    </span>
                     <p>
-                        Sit duis est minim proident non nisi velit non consectetur. Esse
-                        adipisicing laboris consectetur enim ipsum reprehenderit eu deserunt
-                        Lorem ut aliqua anim do. Duis cupidatat qui irure cupidatat incididunt
-                        incididunt enim magna id est qui sunt fugiat. Laboris do duis pariatur
-                        fugiat Lorem aute sit ullamco. Qui deserunt non reprehenderit dolore
-                        nisi velit exercitation Lorem qui do enim culpa. Aliqua eiusmod in
-                        occaecat reprehenderit laborum nostrud fugiat voluptate do Lorem culpa
-                        officia sint labore. Tempor consectetur excepteur ut fugiat veniam
-                        commodo et labore dolore commodo pariatur.
+                        I pursued my Bachelor of Engineering in Computer Engineering at Sardar Patel College of Engineering, a reputed institution under Gujarat Technological University (GTU). During the course of my studies from 2021 to 2025, I developed a strong foundation in programming, algorithms, software development, and emerging technologies like machine learning and web development. The program provided me with a blend of theoretical knowledge and practical experience through hands-on projects, internships, and industry-relevant workshops.
                     </p>
                     <p>
-                        Dolor minim irure ut Lorem proident. Ipsum do pariatur est ad ad
-                        veniam in commodo id reprehenderit adipisicing. Proident duis
-                        exercitation ad quis ex cupidatat cupidatat occaecat adipisicing.
-                    </p>
-                    <p>
-                        Tempor quis dolor veniam quis dolor. Sit reprehenderit eiusmod
-                        reprehenderit deserunt amet laborum consequat adipisicing officia qui
-                        irure id sint adipisicing. Adipisicing fugiat aliqua nulla nostrud.
-                        Amet culpa officia aliquip deserunt veniam deserunt officia
-                        adipisicing aliquip proident officia sunt.
+                        Throughout these four years, I enhanced my problem-solving skills, collaborated on team projects, and stayed updated with the latest trends in technology. This experience has not only shaped my technical competencies but also instilled in me a passion for continuous learning and innovation in the field of computer science.
                     </p>
                 </>
             ),
@@ -44,20 +30,14 @@ const education = () => {
             title: "Tapovan Science Academy",
             description: (
                 <>
+                    <span className='font-bold text-lg'>Tapovan Science Academy | Gujarat Secondary and Higher Secondary Education Board (GSEB)</span>
                     <p>
-                        Ex irure dolore veniam ex velit non aute nisi labore ipsum occaecat
-                        deserunt cupidatat aute. Enim cillum dolor et nulla sunt exercitation
-                        non voluptate qui aliquip esse tempor. Ullamco ut sunt consectetur
-                        sint qui qui do do qui do. Labore laborum culpa magna reprehenderit ea
-                        velit id esse adipisicing deserunt amet dolore. Ipsum occaecat veniam
-                        commodo proident aliqua id ad deserunt dolor aliquip duis veniam sunt.
+                        I completed my higher secondary education in the Science stream with Mathematics from Tapovan Science Academy. During this period, I developed a strong interest in problem-solving, logical thinking, and analytical skills, which laid the foundation for my journey into engineering.
                     </p>
                     <p>
-                        In dolore veniam excepteur eu est et sunt velit. Ipsum sint esse
-                        veniam fugiat esse qui sint ad sunt reprehenderit do qui proident
-                        reprehenderit. Laborum exercitation aliqua reprehenderit ea sint
-                        cillum ut mollit.
+                        Alongside my academic curriculum, I prepared for competitive exams such as JEE (Joint Entrance Examination) and GUJCET (Gujarat Common Entrance Test). My efforts in these exams resulted in securing a rank of 5919 through ACPC (Admission Committee for Professional Courses), enabling me to pursue Computer Engineering at a reputed institution.
                     </p>
+                    <p>This phase of my education honed my discipline, work ethic, and time management skills, providing me with the tools to excel in both academics and competitive exams.</p>
                 </>
             ),
             badge: "HSC - Science Stream (Mathematics)",

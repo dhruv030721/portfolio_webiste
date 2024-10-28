@@ -25,13 +25,19 @@ import cloudinary from "@/public/cloudinary.png"
 import selenium from "@/public/selenium.png"
 import aws from "@/public/aws.png"
 import prisma from "@/public/prisma.png"
+import threejs from "@/public/threejs.png"
+import bikesetu from "@/public/bikesetu.png"
+import scholarscraper from "@/public/scholar_scraper.webp"
+import qr_code_attendance_system from "@/public/qr_code_attendance_system.webp"
 
 const page = () => {
     return (
         <Layout>
             <div className='grid lg:grid-cols-2 xl:grid-cols-2 gap-32 p-10 xl:p-20 lg:p-20 grid-cols-1'>
+                <ProjectCard title="Bike Setu 🛵" description="I developed a web scraper that extracts student result data from the university site using Selenium automation. I also
+integrated a Gemini model using LangChain and created a FastAPI for text recognition" image={bikesetu} images={[react, threejs, nodejs, postgre, python, fastapi, gemini]} />
                 <ProjectCard title="Scholar Scraper 🎓" description="I developed a web scraper that extracts student result data from the university site using Selenium automation. I also
-integrated a Gemini model using LangChain and created a FastAPI for text recognition" images={[python, fastapi, gemini, selenium]} />
+integrated a Gemini model using LangChain and created a FastAPI for text recognition" image={scholarscraper} images={[python, fastapi, gemini, selenium]} />
                 <ProjectCard title="ERP for College Mangement 🏫" description="Developing an ERP system using the PERN stack with TypeScript. The system allows faculty to view their lecture
 schedules in a calendar view, mark student attendance, and download attendance reports in PDF format.
 • Creating a mobile app using Flutter, enabling students to view their attendance records" image={erp} images={[ts, react, postgre, nodejs, prisma]} />
@@ -46,7 +52,7 @@ Puppeteer to scrape recruitment data and set up cron jobs to send email alerts f
                 <ProjectCard title="QR code Attendance System" description=" I created a college project for a Smart QR Code Attendance System, enabling students to mark their attendance simply by scanning
 their individual QR codes.
 • To develop this project, I utilized OpenCV for real-time QR code detection from the camera feed, coupled with Python for decoding,
-and Node.js for the backend" images={[python, opencv, nodejs, mongodb]} />
+and Node.js for the backend" images={[python, opencv, nodejs, mongodb]} image={qr_code_attendance_system}/>
             </div>
         </Layout>
     )
