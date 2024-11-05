@@ -9,29 +9,13 @@ const experience = () => {
             title: "Kartavya Technology",
             description: (
                 <>
-                    <p>
-                        Sit duis est minim proident non nisi velit non consectetur. Esse
-                        adipisicing laboris consectetur enim ipsum reprehenderit eu deserunt
-                        Lorem ut aliqua anim do. Duis cupidatat qui irure cupidatat incididunt
-                        incididunt enim magna id est qui sunt fugiat. Laboris do duis pariatur
-                        fugiat Lorem aute sit ullamco. Qui deserunt non reprehenderit dolore
-                        nisi velit exercitation Lorem qui do enim culpa. Aliqua eiusmod in
-                        occaecat reprehenderit laborum nostrud fugiat voluptate do Lorem culpa
-                        officia sint labore. Tempor consectetur excepteur ut fugiat veniam
-                        commodo et labore dolore commodo pariatur.
-                    </p>
-                    <p>
-                        Dolor minim irure ut Lorem proident. Ipsum do pariatur est ad ad
-                        veniam in commodo id reprehenderit adipisicing. Proident duis
-                        exercitation ad quis ex cupidatat cupidatat occaecat adipisicing.
-                    </p>
-                    <p>
-                        Tempor quis dolor veniam quis dolor. Sit reprehenderit eiusmod
-                        reprehenderit deserunt amet laborum consequat adipisicing officia qui
-                        irure id sint adipisicing. Adipisicing fugiat aliqua nulla nostrud.
-                        Amet culpa officia aliquip deserunt veniam deserunt officia
-                        adipisicing aliquip proident officia sunt.
-                    </p>
+                    <ul>
+                        <li>Developed a B2B SaaS application using <strong>Flutter</strong> for the frontend and <strong>Node.js</strong> for the backend.</li>
+                        <li>Deployed and maintained the backend on <strong>AWS EC2</strong> and managed media on the <strong>AWS S3</strong> bucket.</li>
+                        <li>Built a <strong>CI/CD pipeline</strong> using <strong>Docker</strong> and <strong>GitHub Actions</strong> on an <strong>Amazon Linux EC2</strong> instance.</li>
+                        <li>Integrated <strong>Redis</strong> and <strong>BullMQ</strong> for Notification Job Scheduling and Queuing.</li>
+                    </ul>
+
                 </>
             ),
             badge: "Backend Developer Intern",
@@ -44,20 +28,11 @@ const experience = () => {
             title: "Webito Infotech",
             description: (
                 <>
-                    <p>
-                        Ex irure dolore veniam ex velit non aute nisi labore ipsum occaecat
-                        deserunt cupidatat aute. Enim cillum dolor et nulla sunt exercitation
-                        non voluptate qui aliquip esse tempor. Ullamco ut sunt consectetur
-                        sint qui qui do do qui do. Labore laborum culpa magna reprehenderit ea
-                        velit id esse adipisicing deserunt amet dolore. Ipsum occaecat veniam
-                        commodo proident aliqua id ad deserunt dolor aliquip duis veniam sunt.
-                    </p>
-                    <p>
-                        In dolore veniam excepteur eu est et sunt velit. Ipsum sint esse
-                        veniam fugiat esse qui sint ad sunt reprehenderit do qui proident
-                        reprehenderit. Laborum exercitation aliqua reprehenderit ea sint
-                        cillum ut mollit.
-                    </p>
+                    <ul>
+                        <li>I gained experience with Agile methodologies and Scrum practices. Acquired expertise in creating and managing production environments, <strong>MongoDB Aggregation Pipelines</strong>, and <strong>Socket.IO</strong>.</li>
+                        <li>I have made sure to include both authentication and authorization features, especially for the admin module. Admins can smoothly handle tasks like adding or editing products, managing ingredient stock, and monitoring orders through a user-friendly dashboard.</li>
+                        <li>The journey so far has given me hands-on experience with <strong>React</strong>, <strong>Express</strong>, <strong>Cloudinary</strong> (for handling images), and the <strong>Redux Toolkit</strong> for effective state management.</li>
+                    </ul>
                 </>
             ),
             badge: "Backend Developer Intern",
@@ -69,20 +44,12 @@ const experience = () => {
             title: "Oasis Infobyte",
             description: (
                 <>
-                    <p>
-                        Ex irure dolore veniam ex velit non aute nisi labore ipsum occaecat
-                        deserunt cupidatat aute. Enim cillum dolor et nulla sunt exercitation
-                        non voluptate qui aliquip esse tempor. Ullamco ut sunt consectetur
-                        sint qui qui do do qui do. Labore laborum culpa magna reprehenderit ea
-                        velit id esse adipisicing deserunt amet dolore. Ipsum occaecat veniam
-                        commodo proident aliqua id ad deserunt dolor aliquip duis veniam sunt.
-                    </p>
-                    <p>
-                        In dolore veniam excepteur eu est et sunt velit. Ipsum sint esse
-                        veniam fugiat esse qui sint ad sunt reprehenderit do qui proident
-                        reprehenderit. Laborum exercitation aliqua reprehenderit ea sint
-                        cillum ut mollit.
-                    </p>
+                    <ul>
+                        <li>I gained experience with Agile methodologies and Scrum practices. Acquired expertise in creating and managing production environments, <strong>MongoDB Aggregation Pipelines</strong>, and <strong>Socket.IO</strong>.</li>
+                        <li>I have made sure to include both authentication and authorization features, especially for the admin module. Admins can smoothly handle tasks like adding or editing products, managing ingredient stock, and monitoring orders through a user-friendly dashboard.</li>
+                        <li>The journey so far has given me hands-on experience with <strong>React</strong>, <strong>Express</strong>, <strong>Cloudinary</strong> (for handling images), and the <strong>Redux Toolkit</strong> for effective state management.</li>
+                    </ul>
+
                 </>
             ),
             badge: "Web Developer Intern",

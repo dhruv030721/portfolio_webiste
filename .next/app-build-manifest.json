@@ -1,10 +1,9 @@
 {
   "pages": {
-    "/page": [
+    "/contact_us/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
+      "static/chunks/app/contact_us/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -22,10 +21,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/experience/page.js"
     ],
-    "/education/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/education/page.js"
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
     ]
   }
 }
