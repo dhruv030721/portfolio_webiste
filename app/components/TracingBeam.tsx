@@ -58,7 +58,7 @@ export function TracingBeamDemo({ data }: TracingBeamDemoProps) {
                                             alt={`${item.title} logo`}
                                             height={60}
                                             width={60}
-                                            className="rounded-full object-cover ring-2 ring-blue-100 dark:ring-blue-900"
+                                            className="rounded-full object-cover ring-2 ring-blue-100"
                                         />
                                     </div>
                                 )}
@@ -88,7 +88,7 @@ export function TracingBeamDemo({ data }: TracingBeamDemoProps) {
                                                                     {React.Children.map(li.props.children, (content) => {
                                                                         if (isElementOfType(content, 'strong')) {
                                                                             return (
-                                                                                <span className="mx-1 rounded bg-blue-100 dark:bg-blue-900 px-1.5 py-0.5 font-semibold text-blue-900 dark:text-blue-100">
+                                                                                <span className="mx-1 rounded-full text-sm bg-blue-100 dark:bg-blue-900 px-1.5 py-0.5 font-semibold text-blue-900 dark:text-blue-100">
                                                                                     {content.props.children}
                                                                                 </span>
                                                                             );

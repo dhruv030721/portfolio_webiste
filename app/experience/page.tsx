@@ -1,6 +1,12 @@
 import React from 'react'
 import Layout from '../components/Layout';
 import { TracingBeamDemo } from '../components/TracingBeam';
+import { Caveat } from 'next/font/google';
+
+const caveat = Caveat({
+    weight: '400',
+    subsets: ['latin'],
+})
 
 const experience = () => {
 
@@ -18,7 +24,7 @@ const experience = () => {
 
                 </>
             ),
-            badge: "Backend Developer Intern",
+            badge: "Software Developer Intern",
             image:
                 "https://media.licdn.com/dms/image/v2/C4D0BAQFpzTTsclt6Pg/company-logo_200_200/company-logo_200_200/0/1675952101350?e=2147483647&v=beta&t=cA7RK_YQPC7B3eZePQQOCvSYp_bQwdzrN5OP-ER3S7A",
             height: 150,
@@ -62,6 +68,7 @@ const experience = () => {
     return (
         <Layout>
             <div className='p-10'>
+            <h1 className={`text-6xl text-center mb-10 ${caveat.className}`}>Experience</h1>
                 <TracingBeamDemo data={content} />
             </div>
         </Layout>

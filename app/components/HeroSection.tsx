@@ -35,7 +35,7 @@ export function HeroSection() {
                     absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
                     w-[90%] h-[90%] 
                     rounded-full
-                    bg-white/15
+                    bg-white/10
                     blur-2xl
                     z-0
                 "/>
@@ -44,8 +44,8 @@ export function HeroSection() {
                     src="/Profile Photo.png"
                     alt="Profile Image"
                     className="
-                        brightness-85 p-2 sm:p-3 
-                        rounded-full drop-shadow-black-3xl z-10
+                        brightness-70 p-2 sm:p-3 
+                        rounded-full drop-shadow-black-xl z-10
                     "
                     quality={100}
                     fill
@@ -65,7 +65,7 @@ export function HeroSection() {
                         cy="253"
                         r="250"
                         stroke="#ffffff"
-                        strokeWidth="10"
+                        strokeWidth="3"
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         initial={{ strokeDasharray: "24 10 0 0" }}

@@ -1,6 +1,12 @@
 import React from 'react'
 import Layout from '../components/Layout';
 import { TracingBeamDemo } from '../components/TracingBeam';
+import { Caveat } from 'next/font/google';
+
+const caveat = Caveat({
+    weight: '400',
+    subsets: ['latin'],
+})
 
 const education = () => {
 
@@ -50,6 +56,7 @@ const education = () => {
     return (
         <Layout>
             <div className='p-10'>
+                <h1 className={`text-6xl text-center mb-10 ${caveat.className}`}>Education</h1>
                 <TracingBeamDemo data={content} />
             </div>
         </Layout>

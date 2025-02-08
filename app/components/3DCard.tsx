@@ -10,10 +10,9 @@ export function ThreeDCardDemo({ image, title, description, link }: any) {
         <CardContainer className="inter-var">
             <CardBody
                 className="
-                    bg-gray-50 relative group/card 
-                    dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] 
-                    dark:bg-black dark:border-white/[0.2] 
-                    border-black/[0.1] 
+                     relative group/card 
+                    dark:hover:shadow-2xl hover:shadow-emerald-500/[0.1] 
+                    bg-black border-white/[0.2] 
                     w-full max-w-sm sm:max-w-md lg:max-w-lg
                     h-auto 
                     rounded-xl p-4 sm:p-6 
@@ -67,8 +66,8 @@ export function ThreeDCardDemo({ image, title, description, link }: any) {
                         className="
                             px-3 py-2 sm:px-4 sm:py-2 
                             rounded-xl 
-                            bg-black dark:bg-white dark:text-black 
-                            text-white text-xs sm:text-sm font-bold 
+                            bg-black dark:bg-white text-black 
+                            text-xs sm:text-sm font-bold 
                             hover:scale-105 transition-transform duration-300
                         "
                     >

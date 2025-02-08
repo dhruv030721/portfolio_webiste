@@ -68,7 +68,7 @@ export function MainSection() {
             </section>
 
             {/* Live Projects Section */}
-            <section className="w-full space-y-8">
+            {/* <section className="w-full space-y-8">
                 <div className="flex items-center gap-x-4">
                     <LottieAnimation json={live} classes="w-10 md:w-16" />
                     <h1 className={`text-xl md:text-3xl font-sans ${GeistSans.className}`}>
@@ -93,7 +93,7 @@ export function MainSection() {
                         classes="w-full h-full"
                     />
                 </div>
-            </section>
+            </section> */}
         </main>
     );
 }

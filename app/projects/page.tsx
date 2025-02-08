@@ -29,10 +29,17 @@ import threejs from "@/public/threejs.png"
 import bikesetu from "@/public/bikesetu.png"
 import scholarscraper from "@/public/scholar_scraper.webp"
 import qr_code_attendance_system from "@/public/qr_code_attendance_system.webp"
+import { Caveat } from 'next/font/google';
+
+const caveat = Caveat({
+    weight: '400',
+    subsets: ['latin'],
+})
 
 const page = () => {
     return (
         <Layout>
+            <h1 className={`text-6xl text-center mt-10 ${caveat.className}`}>Projects</h1>
             <div className='grid lg:grid-cols-2 xl:grid-cols-2 gap-32 p-10 xl:p-20 lg:p-20 grid-cols-1'>
                 <ProjectCard title="Bike Setu 🛵" description="I developed a web scraper that extracts student result data from the university site using Selenium automation. I also
 integrated a Gemini model using LangChain and created a FastAPI for text recognition" image={bikesetu} images={[react, threejs, nodejs, postgre, python, fastapi, gemini]} />
@@ -52,7 +59,7 @@ Puppeteer to scrape recruitment data and set up cron jobs to send email alerts f
                 <ProjectCard title="QR code Attendance System" description=" I created a college project for a Smart QR Code Attendance System, enabling students to mark their attendance simply by scanning
 their individual QR codes.
 • To develop this project, I utilized OpenCV for real-time QR code detection from the camera feed, coupled with Python for decoding,
-and Node.js for the backend" images={[python, opencv, nodejs, mongodb]} image={qr_code_attendance_system}/>
+and Node.js for the backend" images={[python, opencv, nodejs, mongodb]} image={qr_code_attendance_system} />
             </div>
         </Layout>
     )
