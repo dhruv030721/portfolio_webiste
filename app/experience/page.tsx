@@ -1,6 +1,8 @@
 import React from 'react'
 import Layout from '../components/Layout';
 import { TracingBeamDemo } from '../components/TracingBeam';
+import stoke_img from "@/public/white_line_stroke.png"
+import Image from 'next/image'
 import { Caveat } from 'next/font/google';
 
 const caveat = Caveat({
@@ -67,8 +69,11 @@ const experience = () => {
 
     return (
         <Layout>
-            <div className='p-10'>
-            <h1 className={`text-6xl text-center mb-10 ${caveat.className}`}>Experience</h1>
+            <div className='px-10 flex flex-col items-center justify-center'>
+            <div className={`mt-10`}>
+                <h1 className={`${caveat.className} text-6xl`}>Experience</h1>
+                <Image src={stoke_img} alt='White Stroke' width={200} className='relative -top-10 rotate-6'/>
+            </div>
                 <TracingBeamDemo data={content} />
             </div>
         </Layout>

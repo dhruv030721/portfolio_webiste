@@ -30,6 +30,8 @@ import bikesetu from "@/public/bikesetu.png"
 import scholarscraper from "@/public/scholar_scraper.webp"
 import qr_code_attendance_system from "@/public/qr_code_attendance_system.webp"
 import { Caveat } from 'next/font/google';
+import stoke_img from "@/public/white_line_stroke.png"
+import Image from 'next/image'
 
 const caveat = Caveat({
     weight: '400',
@@ -39,7 +41,10 @@ const caveat = Caveat({
 const page = () => {
     return (
         <Layout>
-            <h1 className={`text-6xl text-center mt-10 ${caveat.className}`}>Projects</h1>
+            <div className={`mt-10`}>
+                <h1 className={`${caveat.className} text-6xl`}>Projects</h1>
+                <Image src={stoke_img} alt='White Stroke' width={200} className='relative -top-10 rotate-6'/>
+            </div>
             <div className='grid lg:grid-cols-2 xl:grid-cols-2 gap-32 p-10 xl:p-20 lg:p-20 grid-cols-1'>
                 <ProjectCard title="Bike Setu 🛵" description="I developed a web scraper that extracts student result data from the university site using Selenium automation. I also
 integrated a Gemini model using LangChain and created a FastAPI for text recognition" image={bikesetu} images={[react, threejs, nodejs, postgre, python, fastapi, gemini]} />

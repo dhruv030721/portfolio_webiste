@@ -3,11 +3,7 @@ import React from "react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
-import {
-  IconBrandGithub,
-  IconBrandGoogle,
-  IconBrandOnlyfans,
-} from "@tabler/icons-react";
+
 
 export default function SignupFormDemo() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -15,7 +11,7 @@ export default function SignupFormDemo() {
     console.log("Form submitted");
   };
   return (
-    <div className="max-w-md border-[0.2px] w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input border-gray-600 dark:bg-black">
+    <div className="max-w-md border-[0.2px] w-full mx-auto rounded-2xl md:rounded-2xl p-4 md:p-8 shadow-input border-gray-600 dark:bg-black">
       <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
         Get In Touch
       </h2>
