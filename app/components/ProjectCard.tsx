@@ -8,17 +8,17 @@ import Link from "next/link";
 export function ProjectCard({ image, title, description, link = "", images }: any) {
     return (
         <CardContainer className="inter-var w-full">
-            <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full max-w-sm md:max-w-2xl lg:max-w-4xl h-auto rounded-xl p-4 sm:p-6 border">
+            <CardBody className="bg-gray-50 relative group/card  hover:shadow-2xl  hover:shadow-emerald-500/[0.1]  bg-black  border-white/[0.2] border-black/[0.1] w-full max-w-sm md:max-w-2xl lg:max-w-4xl h-auto rounded-xl p-4 sm:p-6 border">
                 <CardItem
                     translateZ="50"
-                    className="text-lg sm:text-xl font-bold text-neutral-600 dark:text-white"
+                    className="text-lg sm:text-xl font-bold text-neutral-600  text-white"
                 >
                     {title}
                 </CardItem>
                 <CardItem
                     as="p"
                     translateZ="60"
-                    className="text-neutral-500 text-xs sm:text-sm max-w-sm mt-2 dark:text-neutral-300"
+                    className="text-neutral-500 text-xs sm:text-sm max-w-sm mt-2  text-neutral-300"
                 >
                     {description}
                 </CardItem>
@@ -56,7 +56,7 @@ export function ProjectCard({ image, title, description, link = "", images }: an
                         as={Link}
                         href={link}
                         target="__blank__"
-                        className="px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                        className="px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl bg-black  bg-white  text-black text-white text-xs font-bold"
                     >
                         Explore it
                     </CardItem>

@@ -15,7 +15,7 @@ export function FloatingDockDemo() {
         {
             title: "Home",
             icon: (
-                <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IconHome className="h-full w-full text-neutral-500  text-neutral-300" />
             ),
             href: "/",
         },
@@ -23,28 +23,28 @@ export function FloatingDockDemo() {
         {
             title: "Education",
             icon: (
-                <HiMiniAcademicCap className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <HiMiniAcademicCap className="h-full w-full text-neutral-500  text-neutral-300" />
             ),
             href: "/education",
         },
         {
             title: "Experience",
             icon: (
-                <MdWork className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <MdWork className="h-full w-full text-neutral-500  text-neutral-300" />
             ),
             href: "/experience",
         },
         {
             title: "Projects",
             icon: (
-                <GiMechanicalArm className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <GiMechanicalArm className="h-full w-full text-neutral-500  text-neutral-300" />
             ),
             href: "/projects",
         },
         {
             title: "Tech Stack",
             icon: (
-                <FaStackOverflow className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <FaStackOverflow className="h-full w-full text-neutral-500  text-neutral-300" />
             ),
             href: "/tech_stack",
         },
@@ -52,7 +52,7 @@ export function FloatingDockDemo() {
         {
             title: "Contact us",
             icon: (
-                <IoIosContact className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IoIosContact className="h-full w-full text-neutral-500  text-neutral-300" />
             ),
             href: "/contact_us",
         },

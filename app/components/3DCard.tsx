@@ -11,7 +11,7 @@ export function ThreeDCardDemo({ image, title, description, link }: any) {
             <CardBody
                 className="
                      relative group/card 
-                    dark:hover:shadow-2xl hover:shadow-emerald-500/[0.1] 
+                     hover:shadow-2xl hover:shadow-emerald-500/[0.1] 
                     bg-black border-white/[0.2] 
                     w-full max-w-sm sm:max-w-md lg:max-w-lg
                     h-auto 
@@ -22,7 +22,7 @@ export function ThreeDCardDemo({ image, title, description, link }: any) {
                 {/* Card Title */}
                 <CardItem
                     translateZ="50"
-                    className="text-lg sm:text-xl font-bold text-neutral-600 dark:text-white"
+                    className="text-lg sm:text-xl font-bold text-neutral-600  text-white"
                 >
                     {title}
                 </CardItem>
@@ -34,7 +34,7 @@ export function ThreeDCardDemo({ image, title, description, link }: any) {
                     className="
                         text-neutral-500 text-sm sm:text-base 
                         max-w-full mt-2 
-                        dark:text-neutral-300
+                         text-neutral-300
                     "
                 >
                     {description}
@@ -66,7 +66,7 @@ export function ThreeDCardDemo({ image, title, description, link }: any) {
                         className="
                             px-3 py-2 sm:px-4 sm:py-2 
                             rounded-xl 
-                            bg-black dark:bg-white text-black 
+                            bg-black  bg-white text-black 
                             text-xs sm:text-sm font-bold 
                             hover:scale-105 transition-transform duration-300
                         "

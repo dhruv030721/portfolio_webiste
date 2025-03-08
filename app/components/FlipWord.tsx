@@ -12,11 +12,11 @@ export function FlipWord() {
     const words = ["<Programmer/>", "<Developer/>", "<System_Designer/>", "<Avid_Learner/>"];
 
     return (
-        <div className={`flex flex-col items-center sm:items-start w-full ${caveat.className} p-4`}>
+        <div className={`flex text-center flex-col items-center sm:items-start w-full ${caveat.className} p-4`}>
             <div className="flex flex-col w-full">
                 <h1 className={`
                     text-neutral-400 
-                    text-center sm:text-left 
+                    text-center sm:text-center 
                     text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-[2.5rem]
                     leading-relaxed
                 `}>
@@ -26,7 +26,7 @@ export function FlipWord() {
                     text-white 
                     font-Playwrite 
                     font-bold 
-                    text-center sm:text-left
+                    text-center sm:text-center
                     text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[4rem]
                     ${caveat.className}
                     mt-2
@@ -36,9 +36,9 @@ export function FlipWord() {
             </div>
             <div className={`
                 font-ubantu 
-                text-neutral-600 dark:text-neutral-400
+                text-white 
                 font-normal 
-                text-center sm:text-left
+                text-center sm:text-center
                 text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[3.5rem]
                 mt-6 sm:mt-4
                 w-full

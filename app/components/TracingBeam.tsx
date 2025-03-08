@@ -41,7 +41,7 @@ export function TracingBeamDemo({ data }: TracingBeamDemoProps) {
                         <div className="pl-8 relative">
                             {/* Timeline dot */}
                             <div className="absolute -left-[10px] top-0">
-                                <div className="h-5 w-5 rounded-full bg-gradient-to-br ring-white dark:ring-gray-900" />
+                                <div className="h-5 w-5 rounded-full bg-gradient-to-br ring-white  ring-gray-900" />
                             </div>
 
                             {/* Badge */}
@@ -56,15 +56,15 @@ export function TracingBeamDemo({ data }: TracingBeamDemoProps) {
                                         <Image
                                             src={item.image}
                                             alt={`${item.title} logo`}
-                                            height={60}
-                                            width={60}
+                                            height={80}
+                                            width={80}
                                             className="rounded-full object-cover ring-2 ring-blue-100"
                                         />
                                     </div>
                                 )}
                                 <p
                                     className={twMerge(
-                                        "text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r text-white"
+                                        "text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r text-white"
                                     )}
                                 >
                                     {item.title}
@@ -72,7 +72,7 @@ export function TracingBeamDemo({ data }: TracingBeamDemoProps) {
                             </div>
 
                             {/* Description */}
-                            <div className="prose prose-lg dark:prose-invert max-w-none">
+                            <div className="prose prose-lg  prose-invert max-w-none">
                                 <div className="space-y-4">
                                     {React.Children.map(item.description, (child) => {
                                         if (isElementOfType(child, 'ul')) {
@@ -84,11 +84,11 @@ export function TracingBeamDemo({ data }: TracingBeamDemoProps) {
                                                         return (
                                                             <li className="flex items-start group">
                                                                 <span className="mr-2 mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-blue-500 group-hover:bg-purple-500 transition-colors" />
-                                                                <span className="text-gray-700 dark:text-gray-300">
+                                                                <span className="text-xs text-gray-300">
                                                                     {React.Children.map(li.props.children, (content) => {
                                                                         if (isElementOfType(content, 'strong')) {
                                                                             return (
-                                                                                <span className="mx-1 rounded-full text-sm bg-blue-100 dark:bg-blue-900 px-1.5 py-0.5 font-semibold text-blue-900 dark:text-blue-100">
+                                                                                <span className="mx-1 rounded-full text-xs  bg-blue-900 px-1.5 py-0.5 font-semibold   text-blue-100">
                                                                                     {content.props.children}
                                                                                 </span>
                                                                             );
@@ -102,7 +102,7 @@ export function TracingBeamDemo({ data }: TracingBeamDemoProps) {
                                                 </ul>
                                             );
                                         }
-                                        return child;
+                                        return <p className="text-xs">{child}</p>;
                                     })}
                                 </div>
                             </div>

@@ -4,7 +4,7 @@ import { DotBackgroundDemo } from "./DotBackground";
 const Layout = ({ children }: any) => {
 
     return (
-        <div className="text-white flex flex-col justify-center items-center">
+        <div className="text-white  flex flex-col justify-center items-center">
             <DotBackgroundDemo>{children}</DotBackgroundDemo>
         </div>
 
