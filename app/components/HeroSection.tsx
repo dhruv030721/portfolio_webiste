@@ -41,7 +41,7 @@ export function HeroSection() {
                 "/>
 
                 <Image
-                    src="/Profile Photo 1.jpg"
+                    src="/P1.png"
                     alt="Profile Image"
                     className="
                         brightness-75 p-1.5 sm:p-2 
