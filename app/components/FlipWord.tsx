@@ -20,7 +20,7 @@ export function FlipWord() {
                     text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-[2.5rem]
                     leading-relaxed
                 `}>
-                    Hello  🙏, {"It's"} me
+                    Hello Coders 🧑🏻‍💻, {"It's"} me
                 </h1>
                 <span className={`
                     text-white 
