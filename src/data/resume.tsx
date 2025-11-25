@@ -3,16 +3,15 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Dhruv Godhani",
-  initials: "DV",
+  initials: "DG",
   url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  location: "Ahmedabad, Gujarat",
   description:
     "SDE - I at Genuin Codebase LLP. I love building things and helping people. Spacially working on Full-Stack Development.",
   summary:
     "Currently, I am working as an [SDE – I at Genuin Codebase LLP](), where my primary focus is on developing Android SDKs for brands. In the past, [I completed my B.E Computer Engineering degree from Gujarat Technological University.](/#education), [During my internship, I completed multiple projects where I worked on Flutter, Node.js, and React.js, developing optimized and scalable backends with CI/CD.], and [I participated in several hackathons and competitions.](/#hackathons).",  
   avatarUrl:
-    "https://media.licdn.com/dms/image/v2/D5603AQF3mJirPvcLfw/profile-displayphoto-shrink_400_400/B56ZVsSIIWHoAg-/0/1741278447040?e=1760572800&v=beta&t=-UviMOJNmspwvbkkxt0F9xNCZ5zEk70tlW2wqZRNubs",
+    "https://lh3.googleusercontent.com/a/ACg8ocIhkeOD6s-ud0cw8voc9PPJMG40o1wqPJQ46ojOQnbnedq_B_rd=s400-c",
   skills: [
     "Android",
     "React.js",
@@ -23,7 +22,6 @@ export const DATA = {
     "Go",
     "Postgres",
     "Docker",
-    "Kubernetes",
     "Java",
     "C++",
   ],
@@ -64,7 +62,7 @@ export const DATA = {
       location: "Remote",
       title: "SDE - I",
       logoUrl:
-        "https://media.licdn.com/dms/image/v2/C560BAQFvDg8FasySZQ/company-logo_200_200/company-logo_200_200/0/1650358219088/begenuin_logo?e=1760572800&v=beta&t=MiAoCi7JQD38avnKOOgWf__VVyi8-BIFwfHCpmTJCeg",
+        "https://play-lh.googleusercontent.com/GQ2DXEMHNTrPxLO6QMEi0Aq7B7Y7GLeD08dI7o0V-i7tjqq8vMlILwBkqHih4zezu2c",
       start: "April 2021",
       end: "Present",
       description:
@@ -126,7 +124,7 @@ export const DATA = {
         "https://res.cloudinary.com/dbmy60hnl/image/upload/v1757565959/ef80d72a-8db2-4eb1-9159-49a5ce976505.png",
       video: "",
     },
-    {
+    /* {
       title: "Scholar Scraper 🎓",
       href: "",
       dates: "",
@@ -138,7 +136,7 @@ export const DATA = {
       image:
         "https://res.cloudinary.com/dbmy60hnl/image/upload/v1757566193/953fd874-7121-4eb0-95c4-dd7fa834d2d6.png",
       video: "",
-    },
+    }, */
     {
       title: "ERP for College Management 🏫",
       href: "",
@@ -204,7 +202,7 @@ export const DATA = {
         "https://res.cloudinary.com/dbmy60hnl/image/upload/v1757565987/54d6e707-38c4-4caf-a6df-7cadf1ac20ef.png",
       video: "",
     },
-    {
+    /* {
       title: "Level up your fitness 💪",
       href: "",
       dates: "",
@@ -229,7 +227,7 @@ export const DATA = {
       image:
         "https://res.cloudinary.com/dbmy60hnl/image/upload/v1757566311/86507d2c-5aa2-4c6f-ab65-27bb7d11a250.png",
       video: "",
-    },
+    }, */
   ],
   hackathons: [
     {
