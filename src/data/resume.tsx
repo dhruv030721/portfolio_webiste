@@ -4,31 +4,35 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Dhruv Godhani",
   initials: "DG",
-  url: "https://dillion.io",
+  url: "https://dhruv21.vercel.app",
   location: "Ahmedabad, Gujarat",
   description:
-    "SDE - I at Genuin Codebase LLP. I love building things and helping people. Spacially working on Full-Stack Development.",
+    "SDE - I at Genuin Codebase LLP. I love building things and helping people. Spacially working on Software Solutions.",
   summary:
-    "Currently, I am working as an [SDE – I at Genuin Codebase LLP](), where my primary focus is on developing Android SDKs for brands. In the past, [I completed my B.E Computer Engineering degree from Gujarat Technological University.](/#education), [During my internship, I completed multiple projects where I worked on Flutter, Node.js, and React.js, developing optimized and scalable backends with CI/CD.], and [I participated in several hackathons and competitions.](/#hackathons).",  
+    "Currently, I am working as an [SDE – I at Genuin Codebase LLP](), where my primary focus is on developing Android SDKs for brands. In the past, [I completed my B.E Computer Engineering degree from Gujarat Technological University.](/#education), [During my internship, I completed multiple projects where I worked on Flutter, Node.js, and React.js, developing optimized and scalable backends with CI/CD.], and [I participated in several hackathons and competitions.](/#hackathons).",
   avatarUrl:
     "https://lh3.googleusercontent.com/a/ACg8ocIhkeOD6s-ud0cw8voc9PPJMG40o1wqPJQ46ojOQnbnedq_B_rd=s400-c",
   skills: [
     "Android",
+    "Jetpack Compose",
+    "Mediapipe",
     "React.js",
     "Next.js",
     "Typescript",
     "Node.js",
     "Python",
     "Go",
-    "Postgres",
-    "Docker",
     "Java",
     "C++",
+    "MongoDB",
+    "Postgres",
+    "Redis",
+    "AWS"
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "[EMAIL_ADDRESS]",
+    tel: "+91 9106842092",
     social: {
       GitHub: {
         name: "GitHub",
@@ -63,10 +67,10 @@ export const DATA = {
       title: "SDE - I",
       logoUrl:
         "https://play-lh.googleusercontent.com/GQ2DXEMHNTrPxLO6QMEi0Aq7B7Y7GLeD08dI7o0V-i7tjqq8vMlILwBkqHih4zezu2c",
-      start: "April 2021",
+      start: "April 2025",
       end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Developing an Android SDK for Genuin. Implemented a feature in the Genuin App to enable video posting from external apps such as YouTube and Instagram for content generation, leveraging FFMPEG for audio and video merging. Designed and built a complete pipeline for a Green Screen POC using the TFLite Selfie Segmentation model with OpenGL rendering for the Genuin Camera. Developed a camera recording pipeline using MediaCodec and MediaMuxer, capturing raw buﬀers from the live camera feed and writing them to files with audio synchronization. Implemented a multilingual feature for the Genuin SDK.",
     },
     {
       company: "Odoo IN Private Limited",
@@ -79,7 +83,7 @@ export const DATA = {
       start: "January 2025",
       end: "April 2025",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Gained hands-on experience with Odoo Python modules, Odoo ORM, and the Odoo Web Framework (OWL Odoo Web Library). Wrote test cases using Hoot and Odoo’s Python testing module, and explored how Odoo Runbot streamlines deployment and the testing lifecycle. Developed custom modules, including enhancements in POS (Point of Sale) to add seller details for the POS Desk, based on client requirements. Completed functional training across core Odoo modules such as CRM, Accounting, Inventory, and Sales, gaining insights into how a centralized platform can automate and optimize business processes.",
     },
   ],
   education: [
@@ -137,7 +141,7 @@ export const DATA = {
         "https://res.cloudinary.com/dbmy60hnl/image/upload/v1757566193/953fd874-7121-4eb0-95c4-dd7fa834d2d6.png",
       video: "",
     }, */
-    {
+    /*{
       title: "ERP for College Management 🏫",
       href: "",
       dates: "",
@@ -155,7 +159,7 @@ export const DATA = {
       image:
         "https://res.cloudinary.com/dbmy60hnl/image/upload/v1757565935/eed4b03d-fd6c-4703-8fa9-d97ca087f868.png",
       video: "",
-    },
+    }, */
     {
       title: "WiAttend - An Attendance App 🛜",
       href: "",
