@@ -7,7 +7,7 @@ export const DATA = {
   url: "https://dhruv21.vercel.app",
   location: "Ahmedabad, Gujarat",
   description:
-    "SDE - I at Genuin Codebase LLP. I love building things and helping people. Spacially working on Software Solutions.",
+    "SDE - I at Genuin Codebase LLP. I love solving real-world problems and helping people to enhance their work with Tech. Specially working on Software Solutions.",
   summary:
     "Currently, I am working as an [SDE – I at Genuin Codebase LLP](), where my primary focus is on developing Android SDKs for brands. In the past, [I completed my B.E Computer Engineering degree from Gujarat Technological University.](/#education), [During my internship, I completed multiple projects where I worked on Flutter, Node.js, and React.js, developing optimized and scalable backends with CI/CD.], and [I participated in several hackathons and competitions.](/#hackathons).",
   avatarUrl:
